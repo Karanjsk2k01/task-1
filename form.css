@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  background-image: url(joanna-kosinska-7ACuHoezUYk-unsplash\ \(1\).jpg);
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.Top-container {
+  max-width: 500px;
+  padding: 0 auto 0 0;
+  width: 100%;
+  margin: 0 auto;
+ 
+}
+
+#Contact{
+  background-color:#E8F9FD;
+  padding: 20px;
+  margin: 50px auto;
+
+}
+#Contact input, button {
+  font: 500px 15px 'Fira Sans',sans-serif;
+  align-items: center;
+
+ }
+
+#Contact h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #603601;
+}
+
+#Contact h3{
+  font-size: 12px;
+  margin: 5px 0px 20px;
+  text-align: center;
+  color:#541690;
+}
+
+.row{
+  width: 100%;
+  padding: 15px 0 20px;
+}
+
+.column {
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset{
+  border: medium none;
+  margin:  10px 0 20px;
+
+
+}
+
+#Contact input {
+  border: 1px solid rgb(150, 150, 150);
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  align-items: center;
+  width: 100%;
+
+}
+
+input[type = "radio"] {
+  width: 10% !important;
+ }
+
+.radio{
+
+  display: inline;
+}
+
+#Contact button {
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: white;
+  margin: 0 0 5px 32%;
+  padding: 10px;
+  font-size: 17px;
+  width: 140px;
+ }
+ 
+ .upload{
+  margin: 25px 0;
+ }
+
+ p{
+  margin: 0 0 7px 0;
+  padding: 2.5px;
+ }
+
